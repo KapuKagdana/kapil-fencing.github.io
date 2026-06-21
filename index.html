@@ -5,29 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kapil Construction & Fencing | Southern River</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Replace ID below with your actual Analytics Measurement ID -->
-    <script async src="main.js"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Kapil Construction & Fencing</h1>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/admin">Admin Dashboard</a>
-        </nav>
+        <div class="container">
+            <h1 class="logo">Kapil<span>Construction</span></h1>
+            <nav>
+                <a href="#services">Services</a>
+                <a href="#contact" class="nav-btn">Get Quote</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>Quality Fencing & Retaining Walls</h2>
-            <p>Serving Southern River and surrounding areas.</p>
-        </section>
-    </main>
+    <section class="hero">
+        <div class="container">
+            <h2>Professional Fencing in Southern River</h2>
+            <p>High-quality retaining walls and fencing. Built to last.</p>
+            <a href="#contact" class="btn-primary">Get Your Free Quote</a>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h3>Our Expertise</h3>
+        <div class="grid">
+            <div class="card"><i class="fas fa-fence"></i><h4>Colorbond Fencing</h4></div>
+            <div class="card"><i class="fas fa-hammer"></i><h4>Retaining Walls</h4></div>
+            <div class="card"><i class="fas fa-tree"></i><h4>Timber Fencing</h4></div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
 </body>
 </html>
